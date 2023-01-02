@@ -26,6 +26,6 @@ export class Pagina1Component implements OnInit {
   
   
     navegar(){
-      this.router.navigate(['pag2'])
+      this.router.navigate(['Pagina 2'])
     }
 }
