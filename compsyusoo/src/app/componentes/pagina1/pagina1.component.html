@@ -1,0 +1,19 @@
+<p>
+  PRESENTACION😽😽 
+</p>
+<input type="number" [(ngModel)]="dato">
+<br><br>
+<button (click)="navegar()">Siguiente pagina</button>
+<br>
+<strong *ngIf="dato>0">Mayor que 0</strong>
+<strong *ngIf="dato<0">Menor que 0</strong>
+<strong *ngIf="dato==0">El dato es 0 </strong>
+<br><br>
+<button (click)="almacenar()">Almacenar</button> <button (click)="recuperar()">Recibir</button>
+<br><br>
+<strong >{{dato}}</strong><br>
+<strong>Dato recibido: {{suma}}</strong>
+<br><br>
+<div *ngFor="let sueldo of array">
+  <ul>Cantidad: {{sueldo}}</ul>
+</div>
